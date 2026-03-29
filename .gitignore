@@ -1,0 +1,35 @@
+# Claude Code memory (personal, not for repo)
+.claude/
+
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (NEVER commit these — contains API keys)
+.env
+.env.local
+.env.development
+.env.production
+server/.env
+client/.env
+
+# Build output
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Test/debug scripts (contain API key probes)
+server/test_api_key.js
+server/test_db.js
